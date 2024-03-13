@@ -41,6 +41,18 @@ a[href]:not([href=""]) {
     text-decoration: none;
 }
 
+a[href]:visited {
+    font-style: italic;
+}
+
+a[href]:hover {
+    text-decoration: underline;
+}
+
+a[href]:active {
+    background-color: var(--color-light-grey);
+}
+
 .visually-hidden {
     display: none;
 }
@@ -68,16 +80,4 @@ a[href]:not([href=""]) {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
     font-weight: var(--font-weight-bold);
-}
-
-a[href]:visited {
-    font-style: italic;
-}
-
-a[href]:hover {
-    text-decoration: underline;
-}
-
-a[href]:active {
-    background-color: var(--color-light-grey);
 }
